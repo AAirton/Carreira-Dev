@@ -1,6 +1,8 @@
-A = float(input(*3.5))
-B = float(input(*7.5))
+A = float(input()) 
+B = float(input()) 
 
-media = (A + B) / 2
-print(f"MEDIA={media:.5f}")
+media = (A*3.5 + B*7.5) / 11
+
+print(f"MEDIA = {media:.5f}")
+
 
