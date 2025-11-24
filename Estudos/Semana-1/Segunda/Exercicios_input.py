@@ -56,3 +56,4 @@ Sua reserva para Salvador foi registrada com sucesso.
 # destino = input()
 
 # print('Olá,', nome,'.Sua reserva para', destino,'foi registrada com sucesso!')
+
