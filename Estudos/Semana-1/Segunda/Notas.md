@@ -104,6 +104,41 @@ Ex: dias da semana, coordenadas.
 - não ordenado, mutável, não permite duplicação.
 
 
+4.**Dicionários**
+- Declaração {chave:valor}
+- Pares (chave e valor), mutável, sem duplicata.
+- Ex: <dicionario> = {chave1:item1, chave2:item2, chave3:item3} 
+	+ livros = {'terror':'It a coisa', 'ação': '20 mil leguas        submarinas', 'romance': 'Crepusculo'}
+
+ romance = livros['romance']
+ print(romance)
+
+**print(livros.get("romance"))**
+
+4.1. Adicionando chave e nota ao dicionário
+
+livros = {}
+livros['Comédia'] = 'A divina comédia'
+livros['Ação'] = 'O sol é para todos'
+livros['Suspense'] = 'O iluminado'
+
+print(livros)
+
+4.2.Deletando nota 
+
+ livros.pop('Comédia')
+ print(livros)
+ 
+**ou**
+
+del livros["Ação"]
+print(livros)
+
+4.3.
+print(livros.keys())
+print(livros.values())
+print(livros.items())
+
 
 
 
