@@ -8,7 +8,7 @@ Olá, Leonardo! Voce tem 29 anos e mora na cidade de São Paulo!
 """
 # print('Qual o seu nome: ')
 # nome = input()
-# print('Qual a sua idade: ')
+# print('Qual a sua idade: ') 
 # idade = input()
 # print('Qual a sua cidade: ')
 # cidade = input()

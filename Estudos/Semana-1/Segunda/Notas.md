@@ -53,6 +53,57 @@ not(negação)
 <=
 
 
+#Coleções
+1.**Listas**
+- <variável> = []
+- ordenada, mutável, aceita valores duplicados.
+
+1.1.Acessando objeto da lista.
+_n = ['Frango','Carne','Linguiça']_
+	_print(n[1])_
+
+será printado: Carne.
+
+1.2.Adicionando objeto na lista.
+- <variável>**.append**()
+
+1.3.Inserindo objeto na lista 
+- <variável>**.insert**(<indice>)
+
+1.4.Atualizando objeto do índice.
+- <variável>[indice] = "str"
+
+1.5.Removendo objeto especifico 
+- <variável>**.remove** = "str"
+	+ <variável>**.pop**()
+	
+1.6.Tamanho da lista.
+- print(len(<variável>))
+
+1.7.Contar repetições 
+- <variavel>**.count**()
+
+1.8.Juntar listas
+- <variável a> = []
+- <variável b> = []
+
+- <variável c> = <variável a> + <variável b>
+- print(<variável c>)
+
+
+2.**Tuplas**
+- <variável> = (...)
+- imutável, dados fixo, heterogêneos.
+Ex: dias da semana, coordenadas.
+
+
+3.**Set** 
+- Declaração 
+- <variável> = {...}
+	+ <variável> = set([...])
+- não ordenado, mutável, não permite duplicação.
+
+
 
 
 
