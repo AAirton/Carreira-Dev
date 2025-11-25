@@ -37,6 +37,22 @@ print(f'Multiplicação de {a * b} é:')
 print(f'Divisão de {a / b} é:')
 
 
+##Operadores lógicos
+1. and(e)
+or(ou)
+not(negação)
+
+
+##Operadores relacionais
+1.
+== (igual a)
+!= (diferente de)
+> 
+<
+>=
+<=
+
+
 
 
 
