@@ -24,3 +24,11 @@ f = 9
 g = f * (d + e)
 
 print(a, b, c, d, e, f, g)
+
+# Será impresso na tela:
+#  10,3,16,26,-1,9,225
+
+# é operador de atribuição composto que adiciona um valor a uma variavel e armazena o resultado na propia variavel.
+    # ex: x += 2, x = x + 2
+
+#  nota: -= é utilizado para subtrair um valor de uma variavel e armazenar o resultado de volta.

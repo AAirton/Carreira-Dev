@@ -24,3 +24,7 @@ g = f + c
 g = f + g
 
 print(a, b, c, d, e, f, g)
+
+
+# Será impresso na tela:
+# 16,3,18,37,1,10,38

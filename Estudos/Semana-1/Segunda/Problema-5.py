@@ -10,7 +10,7 @@ a = -2
 b = 0
 c = 0
 
-if a > 0:
+if a > 0:                  #a=-2,-2<0
     if b < 0:
         if c == 0:
             print("A")
@@ -32,16 +32,16 @@ if a > 0:
             print("H")
         else: 
             print("I")
-elif a < 0:
-    if b < 0:
+elif a < 0:               #a=-2,-2<0
+    if b < 0:             #b=0,0==0
         if c == 0:
             print("A")
         elif c > 0:
             print("B")
         else:
             print("C")
-    elif b == 0:
-        if c == 0:
+    elif b == 0:         #b=0,0==0         
+        if c == 0:       #c=0,0==0      ##Satisfaz a condição, será impresso na tela.
             print("D")
         elif c > 0:
             print("E")
@@ -76,3 +76,5 @@ else:
             print("Q")
         else: 
             print("R")
+
+# Será impresso na tela: D
